@@ -1,0 +1,19 @@
+## Interface: 11505
+## Title: Azeroth Pacer Classic
+## Notes: Counts steps taken and distance traversed within Azeroth.
+## Author: rexdefuror
+## Version: 0.1
+## SavedVariablesPerCharacter: AzerothPacerSaved
+## SavedVariables: AzerothPacerDB
+## IconTexture: Interface\AddOns\AzerothPacerClassic\assets\azerothpacerlogo.png
+
+
+# Libraries
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+Config.lua
+Utils.lua
+AzerothPacerClassic.lua
